@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Slideshow</title>
     <link rel="stylesheet" href="styles.css" />
     <script src="app.js" defer></script>
-</head>
-<body>
+  </head>
+  <body>
     <div class="layout">
-        <div class="slides-container">
-            <div id="pic1" class="pic">
-                <img src="johnny-africa-_ZX0S27D3fw-unsplash.jpg" alt="Myk">
-            </div>
-            <div id="pic2" class="pic"></div>
-            <div id="pic3" class="pic"></div>
+      <div id="slides-container" class="slides-container">
+        <div id="pic1" class="pic">
+          <img src="johnny-africa-_ZX0S27D3fw-unsplash.jpg" alt="Mykonos" />
         </div>
-        <div class="btn-container">
-            <button class="btn">Arrow left</button>
-            <button class="btn">Arrow right</button>
+        <div id="pic2" class="no-display">
+          <img
+            src="kylefromthenorth-hzR9rDXWbqo-unsplash.jpg"
+            alt="Cape Town"
+          />
         </div>
+        <div id="pic3" class="no-display">
+          <img src="harry-gillen-309vXcj_r_c-unsplash.jpg" alt="Montauk" />
+        </div>
+      </div>
+      <div id="slide-number" class="slide-number">1/3</div>
+      <div class="btn-container">
+        <button id="previous" class="btn">Previous</button>
+        <button id="next" class="btn">Next</button>
+      </div>
     </div>
-</body>
+  </body>
 </html>
